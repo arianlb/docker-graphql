@@ -31,4 +31,4 @@ jobs:
       
     - name: Push the Docker image
       run: |
-        docker push arianlb/docker-graphql:0.0.1 .
+        docker push arianlb/docker-graphql:0.0.1
