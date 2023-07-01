@@ -28,7 +28,9 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build -t arianlb/docker-graphql:0.0.1 .
+        docker build -t arianlb/docker-graphql:latest .
       
     - name: Push the Docker image
       run: |
         docker push arianlb/docker-graphql:0.0.1
+        docker push arianlb/docker-graphql:latest
